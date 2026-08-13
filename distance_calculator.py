@@ -6,7 +6,7 @@ y2 = float(input("Enter the second y coordinate: "))
 
 distance = math.sqrt (pow(x2 - x1, 2) + pow(y2 - y1, 2))
 
-print ("The distance between the two points is:", distance)
+print ("The distance between the two points is:", f"{distance:.2f}")
 
 
 """
